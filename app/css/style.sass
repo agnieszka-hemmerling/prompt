@@ -1,0 +1,44 @@
+@import 'blueprint/reset'
+@import 'blueprint/liquid'
+@import 'compass/css3/box-shadow'
+@import 'compass/css3/text-shadow'
+
+
+body
+  margin: 0 auto
+#header
+  margin: 19px 3px 19px 16px
+  height: 80px
+
+  a
+    float: left
+
+#container
+  +container
+
+#left
+  +column(8)
+  float: left
+
+#content
+  +column(16)
+  +last
+  float: left
+
+input 
+  float: left
+  font-size: 22px
+  margin-top: 40px 
+
+#display
+  display: none
+
+table
+  margin: 0px 0px 0px 0px 
+td
+  padding: 7px
+  div 
+    border: 1px solid black
+    width: 25px
+    height: 25px
+    

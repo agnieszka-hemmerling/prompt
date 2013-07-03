@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= @title
+    == css :main
+    == js :main
+
+    link href="jquery-ui/css/dark-hive/jquery-ui-1.8.18.custom.css" rel='stylesheet'
+    script src="jquery-ui/js/jquery-ui-1.8.18.custom.min.js"
+    script src="zeroclipboard/ZeroClipboard.js"
+  body
+    #header
+    #cointainer
+
+      #left
+
+      #content
+        == yield
